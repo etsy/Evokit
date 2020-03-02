@@ -1,0 +1,11 @@
+*.sh
+*.json
+*.txt
+part-*
+
+logs/*
+configs/*
+experiments/*
+model_files/*
+post_buzzsaw/*
+data/*
