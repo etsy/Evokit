@@ -1,0 +1,15 @@
+[package]
+name = "es_data"
+version = "0.1.0"
+authors = ["Andrew Stanton <refefer@gmail.com>", "Akhila Ananthram <akhila.ananthram@gmail.com>"]
+edition = "2018"
+license = "Apache 2"
+
+[dependencies]
+rayon = "1.0"
+serde = "1.0.8"
+serde_derive = "1.0.8"
+hashbrown = "0.3"
+rand = "0.6.5"
+rand_xorshift = "0.1.1"
+tempfile = "3.1.0"
