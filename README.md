@@ -34,7 +34,7 @@ To build your own pipeline using Mulberry, please see [docs/BUILDING_PIPELINE.md
 
 ## Relevant Papers
 ### Relevant Papers
-- [Our KDD2019 paper submission](https://arxiv.org/abs/1905.06452)
+- [Paper on Evokit/Mulberry](https://arxiv.org/abs/1905.06452)
 - [ES-Rank: Evolution Strategy Learning to Rank Approach](http://www.cs.nott.ac.uk/~pszjds/research/files/dls_sac2017.pdf)
 - [An Evolutionary Strategy with Machine Learning for Learning to Rank in Information Retrieval](https://www.researchgate.net/publication/321823857_An_Evolutionary_Strategy_with_Machine_Learning_for_Learning_to_Rank_in_Information_Retrieval)
 - [Back to Basics: Benchmarking Canonical Evolution Strategies for Playing Atari](https://arxiv.org/abs/1802.08842)
