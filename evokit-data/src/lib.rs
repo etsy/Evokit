@@ -1,6 +1,5 @@
 //! Library for dataset methods
 #![warn(missing_docs, unused)]
-#![feature(test)]
 
 #[macro_use]
 extern crate serde_derive;

@@ -147,7 +147,7 @@ mod tests {
     fn test_pointwise_with_last_pass() {
         // verify we sort in descending order
         let last_pass = Some(LastPassConfig::Boost(BoostConfig {
-            field_name: "is_bp".to_string(),
+            field_name: "is_inc".to_string(),
             greater_than_threshold: 0.0,
             max_number_to_boost: 2,
         }));
@@ -169,15 +169,15 @@ mod tests {
 
             let y = vec![1.0; 3];
 
-            let metadata1: Metadata = [("is_bp".to_string(), MetaType::Num(1.0))]
+            let metadata1: Metadata = [("is_inc".to_string(), MetaType::Num(1.0))]
                 .iter()
                 .cloned()
                 .collect();
-            let metadata2: Metadata = [("is_bp".to_string(), MetaType::Num(0.0))]
+            let metadata2: Metadata = [("is_inc".to_string(), MetaType::Num(0.0))]
                 .iter()
                 .cloned()
                 .collect();
-            let metadata3: Metadata = [("is_bp".to_string(), MetaType::Num(1.0))]
+            let metadata3: Metadata = [("is_inc".to_string(), MetaType::Num(1.0))]
                 .iter()
                 .cloned()
                 .collect();
@@ -197,19 +197,19 @@ mod tests {
 
             let y = vec![1.0; 4];
 
-            let metadata1: Metadata = [("is_bp".to_string(), MetaType::Num(1.0))]
+            let metadata1: Metadata = [("is_inc".to_string(), MetaType::Num(1.0))]
                 .iter()
                 .cloned()
                 .collect();
-            let metadata2: Metadata = [("is_bp".to_string(), MetaType::Num(0.0))]
+            let metadata2: Metadata = [("is_inc".to_string(), MetaType::Num(0.0))]
                 .iter()
                 .cloned()
                 .collect();
-            let metadata3: Metadata = [("is_bp".to_string(), MetaType::Num(1.0))]
+            let metadata3: Metadata = [("is_inc".to_string(), MetaType::Num(1.0))]
                 .iter()
                 .cloned()
                 .collect();
-            let metadata4: Metadata = [("is_bp".to_string(), MetaType::Num(1.0))]
+            let metadata4: Metadata = [("is_inc".to_string(), MetaType::Num(1.0))]
                 .iter()
                 .cloned()
                 .collect();
@@ -217,7 +217,6 @@ mod tests {
             let rs = Grouping::new_with_md(x, y, md);
 
             let (sorted_ids, _scores) = policy.evaluate(&state, &rs, 1234, 0);
-            // even though index-3 is buyer promise, we already have 2 that should be boosted
             assert_eq!(sorted_ids, vec![2, 0, 1, 3]);
         }
     }

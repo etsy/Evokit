@@ -1,7 +1,7 @@
 [package]
 name = "es_data"
 version = "0.1.0"
-authors = ["Andrew Stanton <refefer@gmail.com>", "Akhila Ananthram <akhila.ananthram@gmail.com>"]
+authors = ["Andrew Stanton <astanton@etsy.com>", "Akhila Ananthram <aananthram@etsy.com>"]
 edition = "2018"
 license = "Apache 2"
 

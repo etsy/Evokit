@@ -113,12 +113,12 @@ Num scorers added: 5
 Num indicators added: 3
 Num scorers added: 29
 Num indicators added: 187
-Time: 0.000,	Iteration: 0,	Fitness: 0.2380592,	Valid: 0.2380592,	Stats: Some([("opt-buyer-promise", 0.8668418), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.2380592)])
-Time: 0.012,	Iteration: 1,	Fitness: 0.25502113,	Valid: 0.25502113,	Stats: Some([("opt-buyer-promise", 0.9046504), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.25502113)])
+Time: 0.000,	Iteration: 0,	Fitness: 0.2380592,	Valid: 0.2380592,	Stats: Some([("opt-incentive", 0.8668418), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.2380592)])
+Time: 0.012,	Iteration: 1,	Fitness: 0.25502113,	Valid: 0.25502113,	Stats: Some([("opt-incentive", 0.9046504), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.25502113)])
 ...
-Time: 0.038,	Iteration: 100,	Fitness: 0.38283855,	Valid: 0.38283855,	Stats: Some([("opt-buyer-promise", 0.90079236), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.38283855)])
+Time: 0.038,	Iteration: 100,	Fitness: 0.38283855,	Valid: 0.38283855,	Stats: Some([("opt-incentive", 0.90079236), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.38283855)])
 Valid fitness: 0.38283855
-Valid Logger: Some([("opt-buyer-promise", 0.90079236), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.38283855)])
+Valid Logger: Some([("opt-incentive", 0.90079236), ("opt-price-purchases", 1.0), ("opt-relevance-purchases", 0.38283855)])
 Writing model to /tmp/model/linear/example
 ```
 
@@ -145,5 +145,5 @@ Num scorers added: 29
 Num indicators added: 187
 Testing against data/test
 Test Fitness: 0.38283855
-Test Logger: Some([("avg-is-bp-24-mean", 0.90079236), ("avg-is-bp-24-q1", 0.90909094), ("avg-is-bp-24-q2", 1.0), ("avg-is-bp-24-q3", 1.0), ("avg-price-1-mean", 36.799995), ("avg-price-1-purchases-mean", 36.799995), ("avg-price-1-purchases-q1", 7.62), ("avg-price-1-purchases-q2", 14.969999), ("avg-price-1-purchases-q3", 33.0), ..., ("opt-relevance-purchases", 0.38283855)])
+Test Logger: Some([("avg-is-inc-24-mean", 0.90079236), ("avg-is-inc-24-q1", 0.90909094), ("avg-is-inc-24-q2", 1.0), ("avg-is-inc-24-q3", 1.0), ("avg-price-1-mean", 36.799995), ("avg-price-1-purchases-mean", 36.799995), ("avg-price-1-purchases-q1", 7.62), ("avg-price-1-purchases-q2", 14.969999), ("avg-price-1-purchases-q3", 33.0), ..., ("opt-relevance-purchases", 0.38283855)])
 ```

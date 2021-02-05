@@ -1,6 +1,5 @@
 //! Library defining different types of models
 #![warn(missing_docs, unused)]
-#![feature(test)]
 
 #[macro_use]
 extern crate serde_derive;
