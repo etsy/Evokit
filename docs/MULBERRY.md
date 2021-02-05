@@ -99,7 +99,7 @@ We use aggregators to capture the previous documents selected. Every time a docu
 
 ### Last Pass
 In addition to the underlying policies we also support a last pass intervention both at training and evaluation time. We support:
-- Boosting: boost candidates from a certain type to the top of a ranked list. E.g. This can be used to recreate the effects of the buyer promise intervention
+- Boosting: boost candidates from a certain type to the top of a ranked list. E.g. incentivizing certain behaviors
 
 ## Computing the fitness of a child (λ)
 For each child (model weights), we compute its fitness by scoring and ranking all the documents. The final fitness is a weighted combination of different market level indicators.

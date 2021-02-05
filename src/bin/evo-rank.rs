@@ -111,7 +111,7 @@ fn l2r(
 fn parse<'a>() -> ArgMatches<'a> {
     let base = App::new("Evo-Rank")
         .version("0.0.1")
-        .author("Andrew S. <refefer@gmail.com>")
+        .author("Andrew Stanton <astanton@etsy.com>")
         .about("Learning to Rank framework using a variety of optimizers");
 
     // add optimizer arguments

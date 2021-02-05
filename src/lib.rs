@@ -2,7 +2,6 @@
 //!
 //! Evokit is a library and an executable to train models using evolutionary strategies.
 #![warn(missing_docs, unused)]
-#![feature(test)]
 
 #[macro_use]
 extern crate serde_derive;
